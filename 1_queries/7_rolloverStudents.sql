@@ -1,3 +1,4 @@
+-- students that rolled over to another cohort, that is, the cohort start date is different than student start date
 SELECT students.name as student_name, 
 cohorts.name as cohort_name, 
 students.start_date as student_start_date,
